@@ -119,13 +119,14 @@
 
 3. **配置 KV 存储**
 
-   - 在 Dashboard 中进入 `Workers & Pages` → `KV`
-   - 点击 `Create a namespace`，命名为 `f2f-transfers`
-   - 回到你的 Pages 项目 → `Settings` → `Functions` → `KV namespace bindings`
-   - 添加绑定：
-     - **变量名**：`TRANSFERS`
-     - **KV 命名空间**：选择 `f2f-transfers`
-   - 保存并重新部署
+   - 在 Dashboard 中进入 `Storage & databases` → `Workers KV`
+   - 点击 `Create Instance`，`Namespace name` 填入 `TRANSFERS`，（如果自定义名称，需要在 GitHub 里替换 `functions/api/` 下面的 `download.ts` 和 `upload.ts` 的三处 `TRANSFERS`）
+   ~~- 回到你的 Pages 项目 → `Settings` → `Functions` → `KV namespace bindings`~~
+   ~~- 添加绑定：~~
+     ~~- **变量名**：`TRANSFERS`~~
+     ~~- **KV 命名空间**：选择 `f2f-transfers`~~（已经在 `wrangler.toml` 里配置了）
+   - 回到 GitHub 中编辑 `wrangler.toml`，用 `Namespace ID` 替换掉 `id`
+   - GitHub 保存后 Papers 项目会自动重新部署
 
 4. **完成！🎉**
 
