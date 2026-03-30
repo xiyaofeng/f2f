@@ -7,5 +7,5 @@ pages_build_output_dir = "./public"
 # 然后将生成的 ID 替换下面的示例值
 [[kv_namespaces]]
 binding = "TRANSFERS"
-id = "de29319ba2c041dca61d21dee680edb0"
+id = "7f23759dba224602a9e48fac2c8097cd"
 preview_id = "de29319ba2c041dca61d21dee680edb0"
