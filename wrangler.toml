@@ -8,4 +8,4 @@ pages_build_output_dir = "./public"
 [[kv_namespaces]]
 binding = "f2f-transfers"
 id = "7f23759dba224602a9e48fac2c8097cd"
-preview_id = "442a56727084451d978cfde3aca1a0b2"
+preview_id = "7f23759dba224602a9e48fac2c8097cd"
