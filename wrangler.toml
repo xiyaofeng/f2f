@@ -6,6 +6,6 @@ pages_build_output_dir = "./public"
 # 请使用 wrangler kv:namespace create "TRANSFERS" 创建你自己的 KV 命名空间
 # 然后将生成的 ID 替换下面的示例值
 [[kv_namespaces]]
-binding = "fireinthehole"
-id = "14a89ef3de3043dbb2355227ce2fece2"
-preview_id = "14a89ef3de3043dbb2355227ce2fece2"
+binding = "TRANSFERS"
+id = "de29319ba2c041dca61d21dee680edb0"
+preview_id = "de29319ba2c041dca61d21dee680edb0"
