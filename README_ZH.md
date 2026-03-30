@@ -120,7 +120,7 @@
 3. **配置 KV 存储**
 
    - 在 Dashboard 中进入 `Storage & databases` → `Workers KV`
-   - 点击 `Create Instance`，`Namespace name` 填入 `TRANSFERS`
+   - 点击 `Create Instance`，`Namespace name` 填入 `your_kv_namespace_name`
    - ~~回到你的 Pages 项目 → `Settings` → `Functions` → `KV namespace bindings`~~
    - ~~添加绑定：~~
      - ~~**变量名**：`TRANSFERS`~~
